@@ -1,0 +1,76 @@
+/**
+ TODO(you): Write the CSS necessary for fivecolortools.html
+*/
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+#headersection{
+	background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(images/header.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: auto;
+	height: 500px;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#headersection h1{
+	font-family: 'Miriam Libre', sans-serif;
+	color: white;
+	font-size: 55px;
+	text-align: center;
+}
+
+#author{
+	text-align: center;
+	font-family: 'Alice', cursive;
+	line-height: 33px;
+}
+
+#author img{
+	border-radius: 100%;
+	align-items: center;
+	margin-top: -50px;
+}
+
+#wrapper{
+	width: 66%;
+	justify-content: center;
+	font-family: alice;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#wrapper a{
+	text-decoration: none;
+	text-align: center;
+	padding: 20px;
+	color: #42b4d6;
+}
+
+#wrapper p{
+	padding: 20px;
+}
+
+#wrapper img{
+	padding: 20px;
+	width: 100%;
+}
+
+#wrapper h1{
+	font-family: 'Zilla Slab Highlight', cursive;
+	padding: 20px;
+}
+
+span{
+	color: black;
+	background-color: yellow;
+	font-style: italic;
+}
+
+body {
+	font-family: 'Zilla Slab Highlight', cursive;
+}
